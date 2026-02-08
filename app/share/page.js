@@ -5,30 +5,7 @@ export default function SharePage() {
   // [파일 리스트 관리]
   // 여기에 공유할 파일을 계속 추가하면 됩니다.
   const files = [
-    {
-      id: 1,
-      date: "2024.02.08",
-      category: "CAD",
-      name: "Furniture_Blocks_v1.dwg",
-      size: "12.5 MB",
-      url: "/files/sample.zip" // public/files 폴더에 넣은 실제 파일명
-    },
-    {
-      id: 2,
-      date: "2024.02.01",
-      category: "TEXTURE",
-      name: "Concrete_Rough_4K.jpg",
-      size: "24.1 MB",
-      url: "/files/sample.zip" 
-    },
-    {
-      id: 3,
-      date: "2024.01.15",
-      category: "MODEL",
-      name: "Rhino_Parametric_Script.gh",
-      size: "0.5 MB",
-      url: "/files/sample.zip" 
-    },
+  
   ];
 
   return (
