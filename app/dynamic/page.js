@@ -93,7 +93,7 @@ export default function DynamicProjectPage() {
 
       {/* 5. 하단 네비게이션 */}
       <footer className="flex justify-center py-20">
-        <Link href="/architecuture" className="text-sm font-mono tracking-widest text-neutral-400 hover:text-black transition-colors">
+        <Link href="/architecture" className="text-sm font-mono tracking-widest text-neutral-400 hover:text-black transition-colors">
           NEXT PROJECT →
         </Link>
       </footer>
