@@ -31,8 +31,7 @@ export default function DynamicProjectPage() {
         </span>
       </nav>
 
-      <br>
-      </br>
+
 
 
       {/* 2. 헤더 & 메인 이미지 */}
