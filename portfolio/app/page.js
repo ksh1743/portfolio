@@ -8,19 +8,19 @@ export default function Home() {
       id: 1,
       title: "DYNAMIC",
       src: "/logo-dynamic.png", 
-      link: "/projects/dynamic"
+      link: "/dynamic"
     },
     {
       id: 2,
       title: "ARCHITECTURE",
       src: "/logo-static.png",
-      link: "/projects/static"
+      link: "/architecture"
     },
     {
       id: 3,
       title: "SHARE",
       src: "/logo-rough.png",
-      link: "/projects/rough"
+      link: "/share"
     },
   ];
 
