@@ -5,16 +5,16 @@ export default function DynamicProjectPage() {
   
   // [내용 수정] 여기에 프로젝트 설명을 적으세요.
   const projectInfo = {
-    title: "DYNAMICACTIVITY",
-    subtitle: "Cultural Center / Seoul / 2024",
-    concept: "This project explores the relationship between movement and static form. The curved lines represent the flow of people in the city.",
+    title: "SEONGSU",
+    subtitle: "Seongsu",
+    concept: "준비중입니다.",
     // 메인 이미지는 아까 쓰던걸 그대로 씁니다. 나중에 다른 걸로 바꾸세요.
-    mainImage: "/logo-dynamic.png", 
+    mainImage: "/logo-static.png", 
     // 추가 이미지들 (없으면 dynamic.jpg를 반복해서 씁니다)
     gallery: [
-      "/logo-dynamic.png",
-      "/logo-dynamic.png",
-      "/logo-dynamic.png"
+      "/logo-static.png",
+      "/logo-static.png",
+      "/logo-static.png"
     ]
   };
 
@@ -30,9 +30,6 @@ export default function DynamicProjectPage() {
           PROJECT 01
         </span>
       </nav>
-
-      <br>
-      </br>
 
 
       {/* 2. 헤더 & 메인 이미지 */}
@@ -93,7 +90,7 @@ export default function DynamicProjectPage() {
 
       {/* 5. 하단 네비게이션 */}
       <footer className="flex justify-center py-20">
-        <Link href="/architecture" className="text-sm font-mono tracking-widest text-neutral-400 hover:text-black transition-colors">
+        <Link href="/share" className="text-sm font-mono tracking-widest text-neutral-400 hover:text-black transition-colors">
           NEXT PROJECT →
         </Link>
       </footer>
